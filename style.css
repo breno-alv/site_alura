@@ -1,14 +1,23 @@
 body{
-    background-color: #cccccc;
+    
+}
+.titulo-principal{
+    padding-left: 20px;
 }
 
 #banner_barbearia{
     width: 100%;
 }
 
-h1{
-    text-align: center; 
+.principal{
     background-color: #cccccc;
+    padding: 30px;
+}
+
+
+.titulo-centralizado{
+    text-align: center; 
+    
 }
 
 #missao{
@@ -25,4 +34,20 @@ em strong{
 
 .itens{
     font-style: italic;
+}
+
+.beneficios{
+    background: #ffff;
+    padding: 20px;
+}
+
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.img_beneficios{
+    width: 50%;
 }
