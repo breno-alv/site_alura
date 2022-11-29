@@ -1,6 +1,41 @@
 body{
+    border: none;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+#nome_barbea{
     
 }
+
 .titulo-principal{
     padding-left: 20px;
 }
@@ -50,4 +85,21 @@ ul{
 }
 .img_beneficios{
     width: 50%;
+}
+
+.img_footer{
+    width: 90px;
+    padding: 5px 0;
+}
+
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);
+    padding: 3px 0;
+}
+
+.copyright{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
 }
