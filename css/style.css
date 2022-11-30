@@ -8,6 +8,14 @@ body{
     margin: 0 auto;
 }
 
+h1 img{
+    padding-left: 150px;
+}
+
+#nome_barbea{
+    display: flex;
+}
+
 nav{
     position: absolute;
     top: 110px;
@@ -32,9 +40,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-#nome_barbea{
-    
-}
+
 
 .titulo-principal{
     padding-left: 20px;
@@ -58,6 +64,7 @@ nav a:hover{
 #missao{
     font-size: 20px; 
 }
+
 p {
     text-align: center;
     
