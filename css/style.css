@@ -12,8 +12,12 @@ h1 img{
     padding-left: 150px;
 }
 
-#nome_barbea{
-    display: flex;
+h4{
+  top: 119px;
+  position: absolute;
+  /*margin: -19px;*/
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 28px;
 }
 
 nav{
@@ -40,6 +44,12 @@ nav a:hover{
     text-decoration: underline;
 }
 
+ul{
+    display: inline-block;
+    vertical-align: top;
+    /*width: 20%;
+    margin-right: 15%;*/
+}
 
 
 .titulo-principal{
@@ -84,12 +94,6 @@ em strong{
 }
 
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
 .img_beneficios{
     width: 50%;
 }
