@@ -1,6 +1,4 @@
-body{
-    border: none;
-}
+
 header{
     background: #bbbbbb;
 }
@@ -96,6 +94,7 @@ footer{
     margin: 20px 0 0;
 }
 
+/* Contato  */
 main{
     width: 940px;
     margin: 0 auto;
@@ -106,10 +105,15 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;
+}
+
+fieldset select{
+    margin: 10px;
+    border: 1px solid;
 }
 
 .input-padrao{
@@ -117,22 +121,45 @@ form label, form p{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 60%;
 }
 
 #enviar_form{
-    border: 1px solid black;
     display: block;
     margin: 0 0 10px;
     padding: 10px 25px;
     width: 50%;
+    font-weight: bold;
+    border: none;
+    background: orange;
+    border-radius: 7px;
+    cursor: pointer; 
+    transition: 1s all;
+    color: white;
 }
 
-.radio-padrao{
-    padding-left: 20px;
+#enviar_form:hover{
+    background: darkorange;
+    transform: scale(1.1);  
 }
 
 .checkbox{
     margin: 20px 0;
 }
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #a1a1a1;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 10px;
+    margin: 10px;
+} 
 
