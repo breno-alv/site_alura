@@ -1,5 +1,6 @@
 body{
-    border: none;
+    font-family: montserrat, sans-serif;
+    background: linear-gradient(#fefefe,#888888);
 }
 
 .caixa{
@@ -52,11 +53,15 @@ ul{
     margin-right: 15%;*/
 }
 
+main{
+    
+}
 
 .titulo-principal{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .banner_barbearia{
@@ -66,11 +71,12 @@ ul{
 .principal{
     background-color: #cccccc;
     padding: 30px;
+    width: 100%;
 }
 
 .principal p{
     margin: 0 0 1em;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .principal strong{
@@ -103,16 +109,19 @@ ul{
     font-style: italic;
 } */
 
-h3{
-    background: white;
+.titulo-benef{
+    /* background: white; */
     padding: 20px;
     font-size: 30px;
+    width: 100%;
 }
 
 #cards-benef {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 940px;
+    margin: 0 auto;
 }
 
 #card_atend-cli h2{
@@ -123,7 +132,7 @@ h3{
 /* Cartão de Beneficios */
 #card_atend-cli{
     border-radius: 5px;
-    box-shadow: 2px 8px 8px 3px rgba(50, 50, 50, 0.22);
+    box-shadow: 2px 5px 8px 10px rgba(50, 50, 50, 0.22);
     padding: 10px;
     margin: 20px;
     width: 300px;
