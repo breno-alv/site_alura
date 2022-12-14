@@ -1,6 +1,7 @@
 body{
     font-family: montserrat, sans-serif;
-    background: linear-gradient(#fefefe,#888888);
+    background: #fefefe;
+    /* background: linear-gradient(#fefefe,#888888); */
 }
 
 .caixa{
@@ -71,7 +72,8 @@ main{
 .principal{
     background-color: #cccccc;
     padding: 30px;
-    width: 100%;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p{
@@ -99,6 +101,11 @@ main{
 
 #missao{
     font-size: 20px; 
+}
+
+.mapa{
+    padding: 3em 0; 
+
 }
 
 /* em strong{
@@ -132,7 +139,7 @@ main{
 /* Cartão de Beneficios */
 #card_atend-cli{
     border-radius: 5px;
-    box-shadow: 2px 5px 8px 10px rgba(50, 50, 50, 0.22);
+    box-shadow: 2px 5px 8px 5px rgba(50, 50, 50, 0.10);
     padding: 10px;
     margin: 20px;
     width: 300px;
@@ -159,4 +166,10 @@ footer{
     color: white;
     font-weight: bold;
     font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .cards-benef, .mapa {
+        width: auto;
+    }
 }
