@@ -54,6 +54,8 @@ ul{
 }
 
 main{
+    /* width: 940px;
+    margin: 0 auto; */
     
 }
 
@@ -101,13 +103,6 @@ main{
     font-size: 20px; 
 }
 
-/* em strong{
-    color: red;
-} */
-
-/* .itens{
-    font-style: italic;
-} */
 
 .titulo-benef{
     /* background: white; */
@@ -138,11 +133,139 @@ main{
     width: 300px;
     border: 1px ;
     transition: all 0.3s ease-out;
+    background: white;
 }
 /* Imagen do Cartão de Beneficios */
 .img_atend-cli{
     width: 300px;
 }
+
+/*Produtos*/
+
+.main_produtos{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.produtos li{
+    background: white;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;  
+    margin: 0 1.5%;  
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    font-size: 34px;
+}
+
+.produtos li:active{
+    border-color: #03a8f5;
+    
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.desc_prod{
+    font-size: 18px;
+}
+.preço_prod{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Contato  */
+.main_contato{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+
+fieldset select{
+    margin: 10px;
+    border: 1px solid;
+    background:white;
+}
+
+.input-padrao{
+    border: 1px solid black;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 60%;
+    background:white;
+}
+
+#enviar_form{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+    font-weight: bold;
+    border: none;
+    background: orange;
+    border-radius: 7px;
+    cursor: pointer; 
+    transition: 1s all;
+    color: white;
+}
+
+#enviar_form:hover{
+    background: darkorange;
+    transform: scale(1.1);  
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    color: black;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 10px;
+    margin: 10px;
+    
+} 
 
 .img_footer{
     width: 90px;
