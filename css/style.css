@@ -3,55 +3,56 @@
     padding: 0;
     box-sizing: border-box;
     font-family: montserrat, sans-serif;
-<<<<<<< HEAD
-    background: #fefefe;
-    /* background: linear-gradient(#fefefe,#888888); */
-    margin: 0;
-    padding: 0;
-    border: 0;
-=======
 }
 body{
     background: linear-gradient(#fefefe,#b6b5b5);
    
->>>>>>> 653a9b77cabc4c14170ddbea111bc69432704ea0
 }
 
-.caixa{
-    position: relative;
+.header{
+    display: flex;
+    flex-wrap: wrap; /* quando a tela ficar menor o menu fica a baixo da logo */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+/* .caixa{
+     position: relative;
     width: 100%;
-    margin: 0 auto;
-}
+    margin: 0 auto; 
+} */
 
-h1 img{
+/* h1 img{
     padding-left: 300px;
-}
+} */
 
-h4{
+/* h4{
   top: 100px;
   position: absolute;
-  /* margin: 40px; */
+  /* margin: 40px; 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 38px;
   left: 0px; 
-}
+} */
 
 nav{
-    position: absolute;
-    top: 110px;
-    right: -100px;
+    display: flex;
 }
 
 nav li{
+    margin-left: 20px;
     display: inline;
     margin: 0 0 0 15px; 
+    list-style: none;
 }
 
 nav a{
+    padding: 5px;
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -79,8 +80,8 @@ main{
 
 .principal{
     background-color: #cccccc;
-    /* padding: 30px; */
-    width: 100%;
+    padding: 20px;
+    width: auto;
 }
 
 .titulo-principal{
@@ -115,6 +116,8 @@ main{
 
 .mapa {
 	padding: 3em 0;
+    width: 940px;
+    margin: auto;
 	/* background: linear-gradient(#FEFEFE, #888888); */
 }
 
@@ -159,7 +162,7 @@ main{
     box-shadow: 2px 5px 8px 10px rgba(50, 50, 50, 0.22);
     padding: 10px;
     margin: 20px;
-    width: 300px;
+    /* width: 300px; */
     border: 1px ;
     transition: all 0.3s ease-out;
     background: white;
